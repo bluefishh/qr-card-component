@@ -1,0 +1,78 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap");
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* BACKGROUND */
+
+body {
+    background-color: hsl(212, 45%, 89%);
+}
+
+/* CONTAINER */
+
+.container {
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    align-items: center;
+    flex-direction: column;
+}
+
+/* CARD */
+
+.card {
+    display: flex;
+    flex-direction: column;
+    width: 350px;
+    padding: 17px;
+    background-color: hsl(0, 0%, 100%);
+    border-radius: 20px;
+    text-align: center;
+    box-shadow: 8px 17px 34px -11px rgba(0, 0, 0, 0.27);
+}
+
+/* IMG QR CODE */
+
+.card > img {
+    border-radius: 10px;
+}
+
+/* BODY CARD */
+
+.body-card {
+    margin-top: 25px;
+    margin-bottom: 20px;
+}
+
+.body-card span {
+    display: block;
+}
+
+.body-card > h2 {
+    font-family: "Outfit", sans-serif;
+    font-weight: 700;
+    color: hsl(218, 44%, 22%);
+}
+
+.body-card > p {
+    font-family: "Outfit", sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    color: hsl(220, 15%, 55%);
+    padding-left: 45px;
+    padding-right: 45px;
+    margin-top: 20px;
+}
+
+.attribution {
+    font-family: "Outfit", sans-serif;
+    font-size: 11px;
+    margin-top: 15px;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
